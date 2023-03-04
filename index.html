@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FundMe App</title>
+    </head>
+    <body>
+        <h3 id="intro">Click to Connect to MetaMask</h3>
+        <button id="connectBut">connect</button>
+        <h4>Connected Account: <span class="showAccount">Nul</span></h4>
+        <hr width="20%"/>
+
+        <h3>Fund Me</h3>
+        <!--- Form -->
+        <label for="fund">Eth Amount:</label>
+        <input id="fundIn" placeholder="0.4" /><br />
+        <button id="fundBut">Fund</button><br /><br /><br />
+
+        <!--Balance-->
+
+        <button id="balance">getBalance</button>
+        <span><strong>: </strong><span id="showBalance">Click getBalance</span></span>
+        <br /><br />
+        <!-- x form x-->
+
+        <!-- Withdraw Account -->
+        <hr width="20%"/>
+        <br />
+        <h3>Withdrawal</h3>
+        <h4>Amount withdrawn:<span id="amountWithdraw"> 00.00</span></h4>
+        <button id="withdraw">Withdraw</button>
+
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
